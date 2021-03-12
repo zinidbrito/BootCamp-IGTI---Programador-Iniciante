@@ -1,0 +1,2 @@
+Meu primeiro arquivo criado no JavaScript
+NOVA LINHA DE  TEXTO
