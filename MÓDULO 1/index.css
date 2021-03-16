@@ -1,0 +1,25 @@
+        .texto-header {
+           color: rgb(47, 10, 255); 
+           background-color: rgb(255, 239, 8);
+        }
+
+    #texto2 {
+        color:red;
+        background-color:salmon;
+    }
+
+    .borda {
+        border: solid 11px chartreuse;
+        border-radius: 27px;
+
+    }
+
+    .fundo {
+
+    background-color: darkcyan;
+    }
+
+    .paragrafo {
+        margin: 30px 15px 20px 10px;
+        padding: 10px;
+    }
