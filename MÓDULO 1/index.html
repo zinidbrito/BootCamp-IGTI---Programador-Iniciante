@@ -4,10 +4,14 @@
         <link rel="stylesheet" href="index.css">
       <title> Título da Página</title>
         <meta charset="utf-8">
+        <script>
+            //alert("Hello Wolrd");
+            console.log("OPA OPA")
+            </script>
     </head>
             <body class="fundo"> <script>alert="OPA MEU AMIGO"</script>
              
-                <img width="200" src=null>
+                <img width="200 " src="C:\Users\gabri\iron.jpg">
 
                 <h1 id="texto2">Heading 1</h1>
                 <h2>Heading 2 </h2>
@@ -15,12 +19,23 @@
                 <h4>Heading 4</h4>
                 <h5>Heading 5</h5>
                 <h6>Heading 6</h6>
+                <script class="fundo">
+                    setTimeout(function() {
+                        console.log("passou 1 segundo");
+                    }, 1000);
+                    setTimeout(function() {
+                        console.log("passou 2 segundo");
+                        //document.write("DEMOROU PERDEU");
+                    }, 2000);
+                    
+
+                </script>
             
-                <p class="borda paragrafo"> Esse é um parágrafo</p>
+                <p class="paragrafo" id="paragrafo1" class="borda paragrafo"> Esse é um parágrafo</p>
                 <br>
                 <br>
                 <br>
-                <p>Esse é outro paragrafo</p>
+                <p class="paragrafo" id="paragrafo2">Esse é outro paragrafo</p>
                 <a href="https://www.linkedin.com/in/zinidbrito/">Meu perfil no Linkedin</a>
             <br>
                 <input type="number">
@@ -53,14 +68,41 @@
                 <option value="Palio" selected>Sandero</option>
                 <option value="Sandero">Palio</option>
                 <option value="Logan">Logan</option>
-            </select>
+                </select>
             <br>
-            <textarea rows="5" cols="20">
+                <textarea rows="5" cols="20">
                 Texto Inicial </textarea>
 
                 <br>
 
-                <button type="button" onclick="alert('Hello World')">Clique Aqui</button>
+                    <button type="button" onclick="clickBotao()">ESCONDER</button>
+
+                    <button type="button" onclick="clickBotao2()">MOSTRAR</button>
+
+
+                    <br>
+                    <img id="lampada" src="lampadaDesligada.png">
+                    <br>
+                    <button type="button" onclick="ligarLampada()">Ligar Lampada</button>
+                    <button type="button" onclick="desligarLampada()">Desligar Lampada</button>
+                    <br>
+                    <br>
+                    <br>
+
+                    <button type="button" onclick="adicionarElementos()">Adicionar Elemento</button>
+                    <button type="button" onclick="removerElementos()">Remover Elemento</button>
+                    <br>
+                    <div id="divElementos"></div>
+
+
+
+                <script>
+                    console.log("OPA OPA NO BODY");
+                    document.write("texto qualquer");
+                </script>
+                <script src="index.js"></script>
+
+
             </body>
-            </html>
+</html>
             
